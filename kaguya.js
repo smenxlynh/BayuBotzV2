@@ -270,9 +270,9 @@ try {
 		const dfrply = fs.readFileSync('./thumb.jpg')
 		cmhit.push(command)
         mess = {
-			wait: 'Mohon Tunggu Sebentar',
-			success: 'Done Om',
-			toxic: 'Jangan Toxic!! Baka!!',
+			wait: 'Mohon Tunggu Sebentar[ ⏱️ ]',
+			success: 'Done[ ☑️ ]',
+			toxic: 'Jangan Toxic!! Baka!![ 😤 ]',
 			error: {
 				stick: '𝗧𝗶𝗱𝗮𝗸 𝗱𝗮𝗽𝗮𝘁 𝗺𝗲𝗻𝗴𝗮𝗸𝘀𝗲𝘀 𝘃𝗶𝗱𝗲𝗼!',
 				Iv: 'Invalid Link!',
@@ -283,7 +283,7 @@ try {
 				ownerG: 'Khusus Pemilik Grup!',
 				ownerB: 'Khusus Owner',
 				admin: 'Khusus Admin!',
-				Badmin: 'Jadikan Bot Admin Dulu😏'
+				Badmin: 'Jadikan Bot Admin Dulu[ 🗿 ]'
 			}
 		}
 		const botNumber = Bayuu.user.jid
@@ -641,8 +641,8 @@ options
 };
 
 const daftar1 = `Hai kak  ${pushname} ${tampilUcapan} \n\nSebelum Mengakses Bot Verify Terlebih Dahulu Ya, Bot Ini Di Susun Oleh BayuGanz`
-const daftar2 = '```Ketik Tombol Di Bawah Untuk Mendaftar Ke Database BAYU OFC```'
-const daftar3 = [{buttonId: `verify`,buttonText: {displayText: `🌸𝙍𝙀𝙂𝙄𝙎𝙏𝙍𝙀𝘿 `,},type: 1,},]
+const daftar2 = '```Ketik Tombol Di Bawah Untuk Mendaftar Ke Database ʜɪɴᴀᴛᴀʙᴏᴛᴢ```'
+const daftar3 = [{buttonId: `verify`,buttonText: {displayText: `🎃𝙍𝙀𝙂𝙄𝙎𝙏E𝙍𝙀𝘿✔️`,},type: 1,},]
 
 const createSerial = (size) => {
 return crypto.randomBytes(size).toString('hex').slice(0, size)
